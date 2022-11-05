@@ -1,6 +1,6 @@
 :root {
-  --primary-color: green;
-  --secondary-color: #f5f2fe;
+  --primary-color: rgb(157, 215, 223);
+  --secondary-color: #000000;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   ;
 }
@@ -11,11 +11,13 @@ body {
   
 }
 
+
 h1,
 h2,
 h3 {
   margin: 0;
   font-family: 'Cinzel', serif;
+  background-color: hsl(237, 71%, 81%);
 }
 
 h1 {
@@ -61,7 +63,7 @@ font-family: 'Source Code Pro', monospace;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: rgb(7, 7, 7);
 }
 
 .secondary-link {
