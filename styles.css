@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(157, 215, 223);
+  --primary-color: rgb(135, 209, 219);
   --secondary-color: #000000;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   ;
@@ -8,38 +8,60 @@
 body {
   margin-top: 100px;
   font-family: 'Cinzel', serif;
-  
+  background-color: rgb(255, 255, 255);
+   
 }
 
 
 h1,
 h2,
 h3 {
+   line-height: 3,5;
   margin: 0;
   font-family: 'Cinzel', serif;
-  background-color: hsl(237, 71%, 81%);
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 58px;
+   line-height: 1,5;
+   margin: 20px 20px ;
+   padding: 25px 25px;
 }
 
 h2 {
-  font-size: 48px;
+   margin: 20px 20px ;
+   padding: 25px 25px;
+   line-height: 1,5;
+  font-size: 18px;
+  font-family: 'Island Moments', cursive;
+font-family: 'Source Code Pro', monospace;
 }
 
 h3 {
-  font-size: 24px;
+  
+  font-size: 28px;
   opacity: 0.7;
-  font-family: 'Cinzel', serif;
+   line-height: 1,5;
+  font-family: 'Island Moments', cursive;
+font-family: 'Source Code Pro', monospace;
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.5;
+   margin: 20px 20px ;
+   padding: 25px 25px;
+  font-size: 28px;
+  line-height: 1,5;
 font-family: 'Island Moments', cursive;
 font-family: 'Source Code Pro', monospace;
+background-color: rgb(248, 212, 240);
  
+}
+.navbar-nav {
+  font-family: 'Island Moments', cursive;
+font-family: 'Source Code Pro', monospace;
+
 }
 
 .navigation-links {
@@ -82,22 +104,24 @@ font-family: 'Source Code Pro', monospace;
 }
 
 .about-paragraphs {
-  margin: 30px 0;
+  margin: 70px 0;
 }
 
 .about-paragraphs p {
-  margin: 10px;
+  margin: 50px;
+  
 }
 
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+  color: blueviolet; 
+   font-size: 38px;
   text-decoration: none;
   text-align: center;
 }
 
 .email-link:hover {
   text-decoration: underline;
+
 }
