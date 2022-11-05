@@ -2,16 +2,20 @@
   --primary-color: green;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  ;
 }
 
 body {
   margin-top: 100px;
+  font-family: 'Cinzel', serif;
+  
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
+  font-family: 'Cinzel', serif;
 }
 
 h1 {
@@ -25,17 +29,25 @@ h2 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  font-family: 'Cinzel', serif;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
+font-family: 'Island Moments', cursive;
+font-family: 'Source Code Pro', monospace;
+ 
 }
 
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+}
+.navbar-brand {
+ font-family: 'Island Moments', cursive;
+font-family: 'Source Code Pro', monospace;
 }
 
 .navigation-links a {
