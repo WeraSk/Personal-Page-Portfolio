@@ -16,7 +16,7 @@ body {
 h1,
 h2,
 h3 {
-   line-height: 3,5;
+   line-height: 2,5;
   margin: 0;
   font-family: 'Cinzel', serif;
   text-align: center;
@@ -34,7 +34,7 @@ h2 {
    margin: 20px 20px ;
    padding: 25px 25px;
    line-height: 1,5;
-  font-size: 18px;
+  font-size: 28px;
   font-family: 'Island Moments', cursive;
 font-family: 'Source Code Pro', monospace;
 }
@@ -55,22 +55,23 @@ p {
   line-height: 1,5;
 font-family: 'Island Moments', cursive;
 font-family: 'Source Code Pro', monospace;
-background-color: rgb(248, 212, 240);
+background-color: rgb(248, 213, 241);
  
 }
 .navbar-nav {
   font-family: 'Island Moments', cursive;
 font-family: 'Source Code Pro', monospace;
-
+background-color:rgb(255, 226, 249);
 }
 
 .navigation-links {
   display: flex;
   margin-top: 40px;
+
   justify-content: center;
 }
 .navbar-brand {
- font-family: 'Island Moments', cursive;
+  font-family: 'Island Moments', cursive;
 font-family: 'Source Code Pro', monospace;
 }
 
@@ -79,22 +80,25 @@ font-family: 'Source Code Pro', monospace;
 }
 
 .primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
+  text-align: center;
+  border-radius: 6px;
+   padding: 10px 10px;
+  margin:0 auto;
+  display: block;
   text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
+     background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: rgb(7, 7, 7);
+  color: rgb(0, 0, 0);
 }
 
 .secondary-link {
+  text-align: center;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 10px 10px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 3px solid var(--primary-color);
 }
 
 .homepage-link {
@@ -115,7 +119,7 @@ font-family: 'Source Code Pro', monospace;
 .email-link {
   display: flex;
   justify-content: center;
-  color: blueviolet; 
+  color: rgb(0, 0, 0); 
    font-size: 38px;
   text-decoration: none;
   text-align: center;
@@ -123,5 +127,7 @@ font-family: 'Source Code Pro', monospace;
 
 .email-link:hover {
   text-decoration: underline;
+  color: rgb(209, 121, 231);
+  cursor: pointer;
 
 }
