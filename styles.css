@@ -132,3 +132,9 @@ font-family: 'Source Code Pro', monospace;
   cursor: pointer;
 
 }
+.image {
+ 
+  margin:0 auto ;
+  display: block;
+  width: 25%;
+}
