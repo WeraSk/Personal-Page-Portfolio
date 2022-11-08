@@ -141,3 +141,6 @@ font-family: 'Source Code Pro', monospace;
  box-shadow: var(--box-shadow);
   color: rgb(0, 0, 0);
 }
+.autor {
+  text-align: center;
+}
