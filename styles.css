@@ -54,7 +54,12 @@ p {
   font-family: "Source Code Pro", monospace;
   background-color: rgb(248, 213, 241);
 }
-@media screen (max-width: 600px);
+@media (max-width: 600px) {
+  .WeatherForecast {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
 
 .navbar-nav {
   font-family: "Island Moments", cursive;
